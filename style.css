@@ -23,8 +23,8 @@ body {
 header a {
   color:#d83c8e;
   text-decoration:none ;
-  font-size: 2em;
-  width: calc(100vw - 11em);
+ 
+  
   
 }
       
@@ -45,10 +45,7 @@ header ul  {
  }
 
 
-header nav {
-    width: calc(100vw - 11em);
-    
-}
+
 
 img {
     max-width: 100%;
@@ -61,14 +58,11 @@ header img{
 }
 
 
-header nav a {
-    
-   width: calc(100vw - 11em);
-}
+
 
  main{
     
-    padding:0 4em;
+    padding:0 2em;
  }
 
 .duurzaameten{
@@ -125,7 +119,7 @@ padding: 10vw;
      text-align: center; 
      text-decoration: none; 
      display: inline-block; 
-     font-size: 3em; 
+     font-size: 2em; 
      border-radius: 10px;
      padding: 2vw;
      margin: 10vw;
@@ -139,10 +133,10 @@ padding: 10vw;
     text-align: center; 
     text-decoration: none; 
     display: inline-block; 
-    font-size: 1em; 
+   
    border-radius: 10px;
    padding: 1em;
-   font-size: x-large;
+   
    margin: 5vw;
   
    
@@ -155,10 +149,10 @@ padding: 10vw;
      text-align: center; 
      text-decoration: none; 
      display: inline-block; 
-     font-size: 1em; 
+     
     border-radius: 10px;
     margin-top: 10vw;
-    font-size: x-large;
+ 
     padding: 1em
     
 }
@@ -169,9 +163,17 @@ padding: 10vw;
 }
 
 .body-onze-boeren main p:last-of-type {
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 
+
+
+iframe{
+    width: 100%;
+    height: 200px;
+    border:none;
+
+}
 
 
 
