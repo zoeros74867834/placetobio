@@ -2,53 +2,20 @@
 <html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Place to Bio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Interactief Kinderboek</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <header>
-      <div>
-        <a href="index.html">
-          <img
-            src="afbeeldingen/place-to-bio-logo.png"
-            alt="Roze P met een kroontje en Roze B als woordlogo van Place to Bio"
-          />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="meer-duurzaam.html">Meer duurzaam</a></li>
-          <li><a href="onze-boeren.html">Onze boeren</a></li>
-          <li><a href="wie-zijn-wij.html">Wie zijn wij</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Place to Bio</h1>
-
+    <div class="book-container">
+      <h1>Mijn Magische Avontuur</h1>
+      <div id="story-text"></div>
       <img
-        src="afbeeldingen/aardbijhome.png"
-        alt="Aardbij met een blij gezicht en beide handen in de lucht"
+        id="story-image"
+        src="afbeeldingen/meisje.jpg"
+        alt="Verhaal afbeelding"
       />
-
-      <h2>Hoe start jij meer duurzaam te gaan eten?</h2>
-
-      <p>
-        Om te beginnen is het belangrijk om niet meer te eten dan je nodig hebt.
-        Zorg daarom voor een goede balans op je bord. Hierdoor hoeft er minder
-        voedsel geproduceerd te worden, wat beter is voor het milieu.
-      </p>
-      <p>
-        Op dit moment wordt voedsel namelijk zo snel mogelijk geproduceerd. Maar
-        wat voor invloed heeft dat eigenlijk op de kwaliteit van ons eten en
-        drinken?
-      </p>
-      <a href="meer-duurzaam.html" class="homebutton">start</a>
-    </main>
-    <footer>
-      <h4>© Zoe Ros 2025</h4>
-    </footer>
+      <button onclick="nextPage()">Volgende</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
